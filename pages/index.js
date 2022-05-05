@@ -1,12 +1,27 @@
-import Layout from '../components/layout'
-import LandingPage from '../components/LandingPage'
+import Layout from "../components/layout";
+import LandingPage from "../components/LandingPage/LandingPage";
+import Head from 'next/head'
+import About from '../components/LandingPage/About'
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <LandingPage/>
-    </Layout>
-  )
+    <div>
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link
+            href="/style.css"
+            rel="stylesheet"
+          />
+      </Head>
+      <main>
+        <Layout>
+          <LandingPage />
+          <About/>
+        </Layout>
+      </main>
+    </div>
+  );
 }
 // export default function Home() {
 //   return (

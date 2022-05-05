@@ -13,10 +13,15 @@ const Navbar = () => {
             <a>About</a>
           </Link>
         </li>
+        <li>
+          <Link href="/posts/first-post">
+            <a>Login</a>
+          </Link>
+        </li>
       </ul>
       <style jsx>{`
         ul {
-          background: #333;
+          background: #f4a261;
           color: #fff;
           list-style: none;
           display: flex;

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+2:wght@600&family=Lato:wght@300;700&family=Montserrat:wght@300&family=Oswald&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+
+.about-section {
+    display: 'flex';
+    justify-content: 'center';
+}
